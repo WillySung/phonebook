@@ -30,7 +30,7 @@ perf_clear:
 	echo "echo 1 > /proc/sys/vm/drop_caches" | sudo sh
 
 run: $(EXEC)
-	watch -d -t ./phonebook_orig
+	watch -d -t ./phonebook_opt
 
 clean:
 	$(RM) $(EXEC) *.o perf.*
