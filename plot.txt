@@ -1,3 +1,3 @@
-                               original          modify     BST
-append()          0.055               0.027         0.06
-findName()     0.006               0.002         0.005
+                               original           modify_struct      hash_djb2
+append()          0.077228               0.026443               0.037862
+findName()     0.005792               0.001763               0.000000
